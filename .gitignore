@@ -52,6 +52,4 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-#my ignors
-pres_debates
-
+#my ignores
