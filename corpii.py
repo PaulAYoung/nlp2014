@@ -17,5 +17,5 @@ def load_pres_debates():
     """
     Returns the corpus for the presidential debates.
     """
-    debates = PlaintextCorpusReader(path.join(pwd, "pres_debates"), "./*.txt")
+    debates = PlaintextCorpusReader(path.join(pwd, "pres_debates"), ".*.txt")
     return debates
